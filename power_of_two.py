@@ -12,7 +12,7 @@ def main():
     try:
         user_number_as_int = int(user_number_as_string)
     except ValueError:
-        print("{} is not a number.)".format(user_number_as_string))
+        print("{} is not a number.".format(user_number_as_string))
     else:
         if user_number_as_int > 0:
             # terminal replicates a for loop that calculates the power of two
