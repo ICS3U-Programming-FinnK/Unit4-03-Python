@@ -19,7 +19,7 @@ def main():
             for loop_counter in range(user_number_as_int + 1):
                 power_of_two = loop_counter**2
                 print("{}^2 = {}".format(loop_counter, power_of_two))
-        else:  # terminal will diaplay an error if the number is not inputted correctly
+        else:  # terminal will display an error if the number is not inputted correctly
             print("{} is not a positive number.".format(user_number_as_int))
     finally:
         print("Thanks for playing with my program!")
